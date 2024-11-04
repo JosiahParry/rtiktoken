@@ -1,12 +1,12 @@
 Package: rtiktoken
-Title: BPE Tokenizer for OpenAI's Models
-Version: 0.0.5
+Title: A Byte-Pair-Encoding (BPE) Tokenizer for OpenAI's Large Language Models
+Version: 0.0.6
 Authors@R: c(
     person("David", "Zimmermann-Kollenda", , "david_j_zimmermann@hotmail.com", role = c("aut", "cre")),
     person("Roger Zurawicki", role = "aut", comment = "tiktoken-rs Rust library"),
     person("Authors of the dependent Rust crates", role = "aut", comment = "see AUTHORS file")
   )
-Description: A thin wrapper around the `tiktoken-rs` crate, allowing to encode text into BPE tokens and decode back to text.
+Description: A thin wrapper around the tiktoken-rs crate, allowing to encode text into Byte-Pair-Encoding (BPE) tokens and decode tokens back to text. This is useful to understand how Large Language Models (LLMs) perceive text. 
 License: MIT + file LICENSE
 URL: https://davzim.github.io/rtiktoken/, https://github.com/DavZim/rtiktoken/
 BugReports: https://github.com/DavZim/rtiktoken/issues
